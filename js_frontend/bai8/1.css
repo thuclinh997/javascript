@@ -1,0 +1,20 @@
+*{margin: 0; padding: 0;} 
+/* cach 1 dung transition*/
+/* .card{
+    transition: 0.4s;
+}
+.diphai{
+    transform: translateX(200px);
+} */
+/* cach2 dung animation */
+/* .card{
+    transition: 0.4s;
+} */
+.diphai{
+    animation: sangphai 2s forwards;
+}
+@keyframes sangphai{
+    0%{transform:translateX(0px);}
+    50%{transform: translateX(400px);}
+    100%{transform: translateX(600px);}
+}

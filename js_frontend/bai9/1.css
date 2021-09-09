@@ -1,0 +1,19 @@
+*{margin: 0; padding: 0;} 
+.chieuso1{
+    animation: chieu1 3s forwards;
+}
+@keyframes chieu1{
+    0%{transform: translateX(0px) translateY(0px);}
+    30%{transform: translateX(200px) translateY(0px);}
+    66%{transform: translateX(200px) translateY(200px);}
+    100%{transform: translateX(500px) translateY(200px);}
+}
+.chieuso2{
+    animation: chieu2 3s forwards;
+}
+@keyframes chieu2{
+    0%{transform: translateX(500px) translateY(200px);}
+    30%{transform: translateX(200px) translateY(200px);}
+    66%{transform: translateX(200px) translateY(0px);}
+    100%{transform: translateX(0px) translateY(0px);}
+}
