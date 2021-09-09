@@ -1,4 +1,4 @@
-﻿var diem = 4;
+var diem = 4;
 if (diem >= 5 && diem < 7) {
     console.log("Trung binh");
 }
